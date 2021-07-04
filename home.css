@@ -25,7 +25,7 @@ body {
 
 .home-page .jumbotron.header-jumbotron .text-container {
   color: white;
-  padding: 15% 15%;
+  padding: 10% 10%;
   text-align: center;
 }
 
@@ -55,6 +55,12 @@ body {
   text-align: center;
 }
 
+.home-page .subscribe-jumbotron .jumbotron .text-container input {
+  background-color: transparent !important;
+  height: 50px !important;
+  width: 50% !important;
+}
+
 /* spacing */
 .recent-podcasts,
 .podcaster-profile {
@@ -62,6 +68,7 @@ body {
   margin-bottom: 100px;
 }
 
+/* footer jumbotron */
 .footer-jumbotron-section .jumbotron.footer-jumbotron {
   background-color: #333333 !important;
   width: 100%;
