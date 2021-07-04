@@ -46,19 +46,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 0 !;
+  margin-bottom: 0 !important;
 }
 
 .home-page .subscribe-jumbotron .jumbotron .text-container {
   color: white;
-  padding: 5% 5%;
+  padding: 5%;
   text-align: center;
 }
 
 .home-page .subscribe-jumbotron .jumbotron .text-container input {
   background-color: transparent !important;
   height: 50px !important;
-  width: 50% !important;
 }
 
 /* spacing */
@@ -74,7 +73,7 @@ body {
   width: 100%;
   height: 350px;
   margin-bottom: 0 !important;
-  color: wheat !important;
+  color: white !important;
 }
 
 .footer-jumbotron-section .jumbotron .jumbotron-txt-container {
