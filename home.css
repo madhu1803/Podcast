@@ -81,3 +81,15 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/* podcast page header jumbotron */
+.home-page .jumbotron.podcast-header-jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://technext.github.io/podca/images/hero_bg_1.jpg");
+  width: 100%;
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

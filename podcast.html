@@ -18,42 +18,34 @@
 
 <body>
     <div class="home-page">
-        <!-- navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #333333 !important;">
-            <a class="navbar-brand text-white" href="#">Podcasts</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="podcast.html">Podcasts</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Jumbotron-->
-        <div class="jumbotron jumbotron-fluid header-jumbotron">
-            <div class="container text-container">
-                <h1 class="display-4">Episode 09: How To Create Web Page Using Bootstrap 4
-                </h1>
-                <p>
-                    By Mike | 16th september | 1:03:00
-                </p>
-                <img src="./assets/icons/fb.png" class="p-2">
-                <img src="./assets/icons/instagram.png" class="p-2">
-                <img src="./assets/icons/linkedin.png" class="p-2">
-         <img src="./assets/icons/spotify.png" class="p-2">
-            </div>
-            <div style="text-align: center;">
-                <iframe
-                    src="https://anchor.fm/sarvesh-sankaranarayanan/embed/episodes/Basics-of-Options-Trading-e13gshq"
-                    height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-            </div>
+            <!-- navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #333333 !important;">
+                <a class="navbar-brand text-white" href="home.html">Podcast</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Podcasts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Jumbotron-->
+            <div class="jumbotron jumbotron-fluid podcast-header-jumbotron">
+                <div class="container text-container text-center text-white">
+                    <h1 class="display-4">Recent Podcast
+                    </h1>
+                    <p>
+                        By Mike | 16th september | 1:03:00
+                    </p>
+                </div>
         </div>
         <!-- Recent Podcasts-->
         <div class="recent-podcasts">
@@ -105,57 +97,55 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center">
-                <a href="podcast.html" class="text-danger shadow">View More Podcasts</a>
-            </div>
-        </div>
-
-        <!-- Podcaster Profile -->
-        <div class="podcaster-profile bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="text-center p-5">
-                            <img src="./assets/sarvesh.jpeg" class="card-img w-100 h-100" alt="..." />
+                <!-- card 3 -->
+                <div class="card shadow mb-5 bg-white rounded">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://technext.github.io/podca/images/hero_bg_1.jpg"
+                                class="card-img w-100 h-100" alt="..." />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-danger">Episode 09: How To Create Web Page Using Bootstrap 4
+                                </h4>
+                                <small class="text-muted">By Mike Smith / 16 September 2017 / 1:30:20</small>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.
+                                </p>
+                                <iframe
+                                    src="https://anchor.fm/sarvesh-sankaranarayanan/embed/episodes/Basics-of-Options-Trading-e13gshq"
+                                    height="102px" frameborder="0" scrolling="no" class="w-100"></iframe>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 p-5">
-                        <h3>Behind the Mic</h3>
-                        <p class="text-secondary pt-5">
-                            This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit
-                            longer. This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content is a little
-                            bit longer. This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content is a little
-                            bit longer.
-                        </p>
-                        <p class="text-muted pt-5"> - Sarvesh Sankaranarayanan</p>
-                    </div>
                 </div>
-            </div>
-
-        </div>
-        <!-- Subscribe Jumbotron -->
-        <div class="subscribe-jumbotron text-white">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container text-container">
-                    <h1 class="display-4">Subscribe</h1>
-                    <p class="lead">
-                        This is a modified jumbotron that occupies the entire horizontal
-                        space of its parent.
-                    </p>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username"
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-danger" type="button" id="button-addon2">Button</button>
+                <!-- card 4 -->
+                <div class="card shadow mb-5 bg-white rounded">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://technext.github.io/podca/images/hero_bg_1.jpg"
+                                class="card-img w-100 h-100" alt="..." />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-danger">Episode 09: How To Create Web Page Using Bootstrap 4
+                                </h4>
+                                <small class="text-muted">By Mike Smith / 16 September 2017 / 1:30:20</small>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.
+                                </p>
+                                <iframe
+                                    src="https://anchor.fm/sarvesh-sankaranarayanan/embed/episodes/Basics-of-Options-Trading-e13gshq"
+                                    height="102px" frameborder="0" scrolling="no" class="w-100"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- footer jumbotron  -->
         <div class="footer-jumbotron-section">
             <div class="jumbotron footer-jumbotron">
