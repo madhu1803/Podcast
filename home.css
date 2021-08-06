@@ -94,3 +94,8 @@ body {
   background-size: cover;
   position: relative;
 }
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
