@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   margin: 0 !important;
   padding: 0 !important;
@@ -95,7 +95,11 @@ body {
   position: relative;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
+.navbar-fixed-top-scrolled {
+  background-color: #614D6B !important;
   transition: background-color 200ms linear;
+}
+.transparent-button{
+  background: transparent;
+  color: white;
 }
