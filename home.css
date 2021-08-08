@@ -1,13 +1,17 @@
 html,
 body {
-  /* height: 100%; */
   width: 100%;
+  height: 100%;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   background-color: #f8f9fa;
   overflow-x: hidden !important;
+}
+
+.home-page .navbar {
+  background-color: #614d6b !important;
 }
 
 /* homepage header-jumbotron */
@@ -95,11 +99,9 @@ body {
   position: relative;
 }
 
-.navbar-fixed-top-scrolled {
-  background-color: #614D6B !important;
-  transition: background-color 200ms linear;
-}
-.transparent-button{
-  background: transparent;
-  color: white;
+@media (max-width: 768px) {
+  iframe {
+    width: 100% !important;
+    height: 80px !important;
+  }
 }
